@@ -1,7 +1,7 @@
 {
-  "name": "@unction/template",
+  "name": "@unction/keys",
   "version": "1.0.0",
-  "description": "",
+  "description": "Takes a record and returns it's keys",
   "keywords": [
     "unction",
     "functional"
@@ -14,9 +14,9 @@
     }
   ],
   "license": "ISC",
-  "homepage": "https://github.com/unctionjs/tempLate#readme",
-  "repository": "github:unctionjs/tempLate",
-  "bugs": "https://github.com/unctionjs/tempLate/issues",
+  "homepage": "https://github.com/unctionjs/keys#readme",
+  "repository": "github:unctionjs/keys",
+  "bugs": "https://github.com/unctionjs/keys/issues",
   "main": "transpiled/source.js",
   "scripts": {
     "postinstall": "npm run build && flow-typed install",
@@ -47,6 +47,8 @@
     "tap": "10.3.3"
   },
   "dependencies": {
-    "ramda": "0.24.1"
+    "@unction/flip": "*",
+    "@unction/append": "*",
+    "@unction/reducekeys": "*"
   }
 }

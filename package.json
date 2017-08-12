@@ -1,7 +1,7 @@
 {
   "name": "@unction/keys",
   "version": "1.0.0",
-  "description": "Takes a record and returns it's keys",
+  "description": "Takes a keyed iterable and returns the keys as an Array",
   "keywords": [
     "unction",
     "functional"

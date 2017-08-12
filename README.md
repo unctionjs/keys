@@ -4,12 +4,13 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> RecordType -> Array<ValueType>
+> KeyedIterableType -> Array<KeyType>
 
-Takes a record and returns it's keys.
+Takes a keyed iterable and returns the keys as an Array.
 
 ``` javascript
 keys({aaa: "111", bbb: "222"}) // ["aaa", "bbb"]
+keys(["111", "222"]) // [0, 1]
 ```
 
 [BADGE_TRAVIS]: https://img.shields.io/travis/unctionjs/keys.svg?maxAge=2592000&style=flat-square

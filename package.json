@@ -52,9 +52,9 @@
     "tap": "11.0.0"
   },
   "dependencies": {
-    "@unction/append": "2.13.0",
-    "@unction/flip": "2.8.0",
-    "@unction/reducekeys": "2.42.0"
+    "@unction/append": "3.0.0",
+    "@unction/flip": "3.0.0",
+    "@unction/reducekeys": "3.0.0"
   },
   "nyc": {
     "require": [

@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> KeyedFunctorType -> Array<KeyType>
+> KeyedFunctorType => Array<KeyType>
 
 Takes a keyed iterable and returns the keys as an Array.
 

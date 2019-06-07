@@ -1,7 +1,7 @@
-/* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type, no-magic-numbers */
-import {test} from "tap"
+/* eslint-disable no-magic-numbers */
+import {test} from "tap";
 
-import keys from "./index"
+import keys from "./index";
 
 test(({same, end}) => {
   same(
@@ -10,10 +10,10 @@ test(({same, end}) => {
       bbb: "222",
     }),
     ["aaa", "bbb"]
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({same, end}) => {
   same(
@@ -22,7 +22,7 @@ test(({same, end}) => {
       "bbb",
     ]),
     [0, 1]
-  )
+  );
 
-  end()
-})
+  end();
+});

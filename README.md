@@ -1,5 +1,3 @@
-**NOTE: This library has been deprecated in favor of [unction/getMany](https://github.com/unctionjs/getMany)**
-
 # @unction/keys
 
 ![Tests][BADGE_TRAVIS]

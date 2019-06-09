@@ -1,6 +1,6 @@
 {
   "name": "@unction/keys",
-  "version": "10.1.1",
+  "version": "10.2.0",
   "description": "Takes a keyed iterable and returns the keys as an Array",
   "keywords": [
     "unction",

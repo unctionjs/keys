@@ -58,8 +58,7 @@
   "dependencies": {
     "@unction/append": "6.5.0",
     "@unction/flip": "4.1.0",
-    "@unction/reducekeys": "8.5.0",
-    "core-js": "3.0.1"
+    "@unction/reducekeys": "8.5.0"
   },
   "files": [
     "index.js",

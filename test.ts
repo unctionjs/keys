@@ -1,5 +1,5 @@
 /* eslint-disable no-magic-numbers */
-import keys from "./index.ts";
+import keys from "./index";
 
 test(() => {
   expect(keys({

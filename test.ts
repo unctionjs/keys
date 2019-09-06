@@ -1,14 +1,14 @@
 /* eslint-disable no-magic-numbers */
 import keys from "./index";
 
-test(() => {
+test("works", () => {
   expect(keys({
     aaa: "111",
     bbb: "222",
   })).toEqual(["aaa", "bbb"]);
 });
 
-test(() => {
+test("works", () => {
   expect(keys([
     "aaa",
     "bbb",

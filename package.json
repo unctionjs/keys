@@ -66,8 +66,8 @@
     "typescript": "^4.1.2"
   },
   "dependencies": {
-    "@unction/append": "^6.12.0",
+    "@unction/append": "^6.13.0",
     "@unction/flip": "^4.1.4",
-    "@unction/reducekeys": "^8.12.0"
+    "@unction/reducekeys": "^8.13.0"
   }
 }

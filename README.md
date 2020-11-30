@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> KeyedEnumerableType<A, B> => Array<B>
+> Array<A> | Set<A> | Record<string | number | symbol, B> | Map<B, A> | string => Array<B>
 
 Takes a keyed iterable and returns the keys as an Array.
 
